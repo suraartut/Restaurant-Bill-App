@@ -18,7 +18,7 @@ int main() {
 	ofstream hesap("fatura.txt");
 	restaurantMenu();
 	
-	string urunler[] = {"Manti", "Kofte", "Pilav", "Doner", "Su", "Ayran", "Fanta", "Kola", "Tulumba", "Kunefe", "Profiterol", "Tulumba"};
+	string urunler[] = {"Manti", "Kofte", "Pilav", "Doner", "Su", "Ayran", "Fanta", "Kola", "Tulumba", "Kunefe", "Profiterol", "Pasta"};
 	int fiyatlar[] = {100, 150, 60, 90, 5, 10, 12, 12, 30, 50, 30, 40};
 	
 	int toplamFiyat;
